@@ -1,0 +1,39 @@
+{
+  "name": "lets-rename-session",
+  "version": "0.1.0",
+  "description": "Automatically name Pi sessions from the first four user messages.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackjingLH/lets-rename-session.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jackjingLH/lets-rename-session/issues"
+  },
+  "homepage": "https://github.com/jackjingLH/lets-rename-session#readme",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "session",
+    "rename",
+    "title"
+  ],
+  "files": [
+    "index.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
